@@ -1,0 +1,28 @@
+.itemOuter{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 23%;
+    gap:10px;
+    
+    .bg-img{
+
+        width: 100%;
+        height: 90%;
+        // background-color: aqua;
+        background-position: center;
+        background-size: cover;
+    }
+    .itemFooter{
+        // background-color: aqua;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+
+        &:first-child{
+            width: 85%;
+        }
+        &:last-child{
+            text-align: right;
+        }
+    }
+}   

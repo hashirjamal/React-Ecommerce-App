@@ -1,0 +1,40 @@
+@mixin shrinkLabel{
+    top: -24px !important;
+    left: 6px;
+    font-size: 16px;
+
+}
+
+
+.form-comp{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    // gap: 2px;
+    width: 100%;
+    margin: 16px 0;
+
+.inp{
+    // width: 70%;
+    padding: 13px;
+
+    &:focus ~.inp-label{
+        @include shrinkLabel();
+    }
+    
+}
+
+
+.inp-label{
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 18px;
+    top: 10px;
+    transition: 300ms ease all;
+}
+.shrink{
+    @include shrinkLabel();
+}
+}

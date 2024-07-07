@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 1rem;
+    width: 97%;
+    padding: 4px 12px;
+    border-bottom: 2px solid rgb(121, 121, 121);
+    top:5%;
+    // position: absolute  ;
+
+    .logo{
+        width: 20%;
+    }
+    .links{
+        // width: 30%;
+        display: flex;
+
+     a{
+        padding: 0 0.5rem;
+        color: black;
+     }
+    }
+}

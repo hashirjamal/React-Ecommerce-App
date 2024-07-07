@@ -1,0 +1,21 @@
+.custom-btn{
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid gray;
+
+&:hover{
+    background-color: black;
+    color: white;
+}
+&.google-btn{
+    background-color: #195df0;
+    color: white;
+    border: none;
+    
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+}
+

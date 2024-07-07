@@ -1,0 +1,37 @@
+.sign-in-div{
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem .5rem;
+    padding: 0 2rem;
+    gap: 1.2rem;
+    width: 50%;
+    
+    
+    .tag{
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .title{
+        font-weight: 900;
+        margin-bottom: 8px;
+    }
+
+    .form-box{
+        // background-color: gray;
+        width: 23rem;
+        display: flex;
+        justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column  ;
+    .btnCont{
+        display: flex;
+        justify-content: space-between;
+        // gap:1rem;
+        width: 100%;
+    }
+}
+
+
+   
+}
